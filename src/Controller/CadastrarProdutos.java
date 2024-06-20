@@ -4,10 +4,15 @@
  */
 package Controller;
 
+import Model.ProdutoModel;
+
 /**
  *
  * @author Gabriel
  */
 public class CadastrarProdutos {
     
+    public void CadastrarPd(){
+        
+    }
 }
