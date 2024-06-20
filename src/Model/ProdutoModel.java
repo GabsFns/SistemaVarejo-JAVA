@@ -9,13 +9,21 @@ package Model;
  * @author Gabriel
  */
 public class ProdutoModel {
+
+    /**
+     * @return the tipo
+     */
+  
     private int ID;
     private String nome;
-    private int preco;
+    private String tipo;
+    private double preco;
     
-    public ProdutoModel(int ID, String nome, int preco){
+    
+    public ProdutoModel(int ID, String nome, String tipo, double preco){
      this.ID = ID;
      this.nome = nome;
+     this.tipo = tipo;
      this.preco = preco;
     }
     
@@ -44,18 +52,27 @@ public class ProdutoModel {
     public void setNome(String nome) {
         this.nome = nome;
     }
+    public String getTipo() {
+        return tipo;
+    }
 
+    /**
+     * @param tipo the tipo to set
+     */
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
     /**
      * @return the preco
      */
-    public int getPreco() {
+    public double getPreco() {
         return preco;
     }
 
     /**
      * @param preco the preco to set
      */
-    public void setPreco(int preco) {
+    public void setPreco(double preco) {
         this.preco = preco;
     }
     
