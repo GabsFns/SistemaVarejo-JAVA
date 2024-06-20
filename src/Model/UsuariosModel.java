@@ -19,6 +19,8 @@ public class UsuariosModel {
         this.Email = Email;
                 
      }    
+
+   
     public String getNome() {
         return Nome;
     }
